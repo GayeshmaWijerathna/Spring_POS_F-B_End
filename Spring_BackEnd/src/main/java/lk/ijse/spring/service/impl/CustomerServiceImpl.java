@@ -25,14 +25,12 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public void addCustomer(CustomerDTO dto) {
-        //service level validations
+
         if (customerRepo.existsById(dto.getId())) {
             throw new RuntimeException(dto.getId()+" is already available, please insert a new ID");
         }
 
         Customer map = mapper.map(dto, Customer.class);
-        //first param = source
-        //Type you want to convert
         customerRepo.save(map);
     }
 
