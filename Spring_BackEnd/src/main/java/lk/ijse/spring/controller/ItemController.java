@@ -42,7 +42,7 @@ public class ItemController {
 
     }
 
-    @PostMapping
+    @PutMapping
     public ResponseUtil updateItem(@RequestBody ItemDTO i) {
         itemService.updateItem(i);
         return new ResponseUtil("Ok", "Update Successful", i);
