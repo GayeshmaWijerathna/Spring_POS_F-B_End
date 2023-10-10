@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Spring-Framework/Spring In Action/O14_Spring_Data_JPA" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_BackEnd" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../Spring-Framework/Spring In Action/O14_Spring_Data_JPA/pom.xml" />
         <option value="$PROJECT_DIR$/../Spring-Framework/Spring In Action/O16_POS_Front_End/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_BackEnd/pom.xml" />
+        <option value="$PROJECT_DIR$/POS_Front_End/pom.xml" />
       </list>
     </option>
   </component>
